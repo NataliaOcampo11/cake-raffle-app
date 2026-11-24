@@ -72,6 +72,7 @@ button:hover {
     padding: 15px 30px; /* Adds space inside the list */
     border-radius: 8px; /* Rounds the corners */
     text-align: left; /* Aligns participant names to the left */
+    overflow-wrap: break-word; /* Prevents long names from overflowing */
 }
 
 #winner {
@@ -80,6 +81,7 @@ button:hover {
     border-radius: 8px; /* Rounds the corners */
     font-weight: bold; /* Makes the winner message bold */
     color: #9333b5; /* Sets the winner text color */
+    overflow-wrap: break-word; /* Prevents long names from overflowing */
 }
 
 .buttons {
