@@ -1,0 +1,112 @@
+body {
+    background-color: #ffe4ef; /* Sets a light pink background */
+    font-family: Arial, sans-serif; /* Sets the text font */
+    margin: 0; /* Removes default spacing */
+    padding: 20px; /* Adds space around the page */
+}
+
+.container {
+    background-color: white; /* Sets a white container background */
+    max-width: 450px; /* Limits the container width */
+    margin: 40px auto; /* Centers the container */
+    padding: 25px; /* Adds space inside the container */
+    border-radius: 15px; /* Rounds the corners */
+    text-align: center; /* Centers the text */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+}
+
+h1 {
+    color: #d63384; /* Sets a vibrant pink heading */
+    font-size: 36px; /* Makes the heading larger */
+}
+
+.material-icons {
+    font-size: 36px; /* Sets the cake icon size */
+    vertical-align: middle; /* Aligns the icon with the heading */
+}
+
+h2 {
+    color: #9333b5; /* Sets a purple heading color */
+}
+
+p {
+    color: #444444; /* Sets a dark gray text color */
+    line-height: 1.5; /* Adds space between lines */
+}
+
+label {
+    display: block; /* Places the label on its own line */
+    font-weight: bold; /* Makes the label bold */
+    text-align: left; /* Aligns the label to the left */
+    margin-bottom: 8px; /* Adds space below the label */
+}
+
+input {
+    width: 100%; /* Makes the input fill the container */
+    padding: 12px; /* Adds space inside the input */
+    margin-bottom: 16px; /* Adds 16px below the input */
+    border: 1px solid #cccccc; /* Adds a gray border */
+    border-radius: 6px; /* Rounds the corners */
+    box-sizing: border-box; /* Prevents the input from overflowing */
+    font-size: 16px; /* Sets the input text size */
+}
+
+button {
+    background-color: #d63384; /* Sets a pink button color */
+    color: white; /* Makes the button text white */
+    padding: 12px; /* Adds space inside the button */
+    border: none; /* Removes the default border */
+    border-radius: 6px; /* Rounds the button corners */
+    font-size: 16px; /* Sets the button text size */
+    cursor: pointer; /* Shows a hand when hovering */
+    width: 100%; /* Makes the button fill its available space */
+}
+
+button:hover {
+    background-color: #ad2168; /* Makes the button darker when hovering */
+}
+
+#participants {
+    background-color: #f8e8ff; /* Sets a light purple background */
+    min-height: 60px; /* Keeps the empty list visible */
+    padding: 15px 30px; /* Adds space inside the list */
+    border-radius: 8px; /* Rounds the corners */
+    text-align: left; /* Aligns participant names to the left */
+}
+
+#winner {
+    background-color: #fff1c7; /* Sets a light yellow background */
+    padding: 15px; /* Adds space inside the winner area */
+    border-radius: 8px; /* Rounds the corners */
+    font-weight: bold; /* Makes the winner message bold */
+    color: #9333b5; /* Sets the winner text color */
+}
+
+.buttons {
+    display: flex; /* Places Draw and Reset on the same row */
+    gap: 10px; /* Adds 10px between the buttons */
+}
+
+.buttons button {
+    flex: 1; /* Gives both buttons equal space */
+}
+
+#reset {
+    background-color: #3498db; /* Makes the Reset button blue */
+}
+
+#reset:hover {
+    background-color: #21618c; /* Makes Reset darker when hovering */
+}
+
+/* Adjusts the layout for phones */
+@media (max-width: 600px) {
+    .container {
+        margin: 15px auto; /* Reduces outside spacing */
+        padding: 20px; /* Reduces inside spacing */
+    }
+
+    h1 {
+        font-size: 28px; /* Makes the heading smaller */
+    }
+}
